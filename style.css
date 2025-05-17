@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: lightgray;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 600px;
+  margin: 40px auto;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px gray;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  max-width: 100px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.tagline {
+  color: red;
+  font-weight: bold;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+fieldset label {
+  margin-right: 15px;
+}
+
+.error {
+  color: red;
+  font-size: 0.9em;
+  display: block;
+}
+
+button {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: darkred;
+}
+
+.profile p {
+  margin-bottom: 10px;
+}

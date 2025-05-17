@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Stand Up Against Bullyingp</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <img src="logo.png" alt="Anti-Bullying Logo" class="logo">
+      <h1>No Bullying Movement</h1>
+      <p class="tagline">We shall make a peaceful and respectful environment together.</p>
+    </header>
+
+    <form id="signupForm">
+      <label for="firstName">First Name  
+        <input type="text" id="firstName" />
+        <span class="error" id="firstNameError"></span>
+      </label>
+
+      <label for="lastName">Last Name  
+        <input type="text" id="lastName" />
+        <span class="error" id="lastNameError"></span>
+      </label>
+
+      <fieldset>
+        <legend>Sex </legend>
+        <label><input type="radio" name="sex" value="Male" /> Male</label>
+        <label><input type="radio" name="sex" value="Female" /> Female</label>
+        <label><input type="radio" name="sex" value="Prefer not to say" /> Prefer not to say</label>
+        <span class="error" id="sexError"></span>
+      </fieldset>
+
+      <label for="email">Email Address  
+        <input type="email" id="email" />
+        <span class="error" id="emailError"></span>
+      </label>
+
+      <label for="password">Password  
+        <input type="password" id="password" />
+        <span class="error" id="passwordError"></span>
+      </label>
+
+      <label for="contact">Contact Number
+        <input type="text" id="contact" />
+      </label>
+
+      <label for="reason">Why you’re supporting our campaign  
+        <textarea id="reason"></textarea>
+        <span class="error" id="reasonError"></span>
+      </label>
+
+      <button type="submit">Join the movement</button>
+    </form>
+  </div>
+</body>
+</html>
+
